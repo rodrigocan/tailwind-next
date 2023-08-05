@@ -17,7 +17,7 @@ export function Control(props: InputControlProps) {
   )
 }
 
-export type InputRootProps = ComponentProps<'div'>
+type InputRootProps = ComponentProps<'div'>
 
 export function Root(props: InputRootProps) {
   return (
